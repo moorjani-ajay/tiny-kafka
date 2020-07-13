@@ -8,7 +8,7 @@
 #
 sudo apt-get install openjdk-8-jdk -y
 
-# Deleting existing and creating new directory
+# Deleting existing and creating new directory 
 rm -rf tiny_kafka_downloads/
 sudo mkdir tiny_kafka_downloads
 cd tiny_kafka_downloads
