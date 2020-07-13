@@ -1,3 +1,5 @@
 # tiny-kafka
 
-wget https://git.io/tinykafka
+```bash
+wget https://git.io/tinykafka -O main.sh && sudo sh main.sh
+```
