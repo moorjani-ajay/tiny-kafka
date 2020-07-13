@@ -20,4 +20,8 @@ sudo apt-get install openjdk-8-jdk -y
 
 # untar
 # tar -zxvf kafka_2.12-2.5.0.tgz
+# Exporting kafka path
+export PATH=/home/ubuntu/tiny_kafka_downloads/kafka_2.12-2.5.0/bin:$PATH
+export KAFKA_HEAP_OPTS=-Xms32M
+export ZK_CLIENT_HEAP=128, ZK_SERVER_HEAP=128
 
