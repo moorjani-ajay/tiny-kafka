@@ -1,3 +1,3 @@
 # tiny-kafka
 
-https://git.io/tinykafka
+wget https://git.io/tinykafka
