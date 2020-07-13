@@ -9,11 +9,15 @@
 sudo apt-get install openjdk-8-jdk -y
 
 # Deleting existing and creating new directory 
-rm -rf tiny_kafka_downloads
-sudo mkdir tiny_kafka_downloads
-cd tiny_kafka_downloads
+
+# rm -rf tiny_kafka_downloads
+# sudo mkdir tiny_kafka_downloads
+# cd tiny_kafka_downloads
+
 # Downloading kafka
-wget http://apache.communilink.net/kafka/2.5.0/kafka_2.12-2.5.0.tgz
+
+# wget http://apache.communilink.net/kafka/2.5.0/kafka_2.12-2.5.0.tgz
 
 # untar
-tar -zxvf kafka_2.12-2.5.0.tgz
+# tar -zxvf kafka_2.12-2.5.0.tgz
+
