@@ -6,11 +6,12 @@
 # The latest version of this script is available at:
 # https://github.com/moorjani-ajay/tiny-kafka
 #
-sudo apt-get install openjdk-8-jdk
+sudo apt-get install openjdk-8-jdk -y
 
-# Creating directory
-sudo mkdir downloads
-cd downloads
+# Deleting existing and creating new directory
+rm -rf tiny_kafka_downloads/
+sudo mkdir tiny_kafka_downloads
+cd tiny_kafka_downloads
 # Downloading kafka
 wget http://apache.communilink.net/kafka/2.5.0/kafka_2.12-2.5.0.tgz
 
