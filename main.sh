@@ -16,14 +16,17 @@ sudo apt-get install openjdk-8-jdk -y
 
 # Downloading kafka
 
-# wget http://apache.communilink.net/kafka/2.5.0/kafka_2.12-2.5.0.tgz
+wget http://apache.communilink.net/kafka/2.5.0/kafka_2.12-2.5.0.tgz
 
 # untar
-# tar -zxvf kafka_2.12-2.5.0.tgz
+tar -zxvf kafka_2.12-2.5.0.tgz
 # Exporting kafka path
 export PATH=/home/ubuntu/tiny_kafka_downloads/kafka_2.12-2.5.0/bin:$PATH
 export KAFKA_HEAP_OPTS=-Xms32M
 export ZK_CLIENT_HEAP=128, ZK_SERVER_HEAP=128
 
-sudo wget https://git.io/tinykafka_zookeeper -O zookeeper-server-start.sh
-sudo sh zookeeper-server-start.sh config/zookeeper.properties
+# git clone https://github.com/moorjani-ajay/tiny-kafka.git
+# sudo sh zookeeper-server-start.sh config/zookeeper.properties
+
+# sudo wget https://git.io/tinykafka_zookeeper -O zookeeper-server-start.sh
+# sudo sh zookeeper-server-start.sh config/zookeeper.properties
