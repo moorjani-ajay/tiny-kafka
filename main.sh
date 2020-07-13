@@ -25,5 +25,5 @@ export PATH=/home/ubuntu/tiny_kafka_downloads/kafka_2.12-2.5.0/bin:$PATH
 export KAFKA_HEAP_OPTS=-Xms32M
 export ZK_CLIENT_HEAP=128, ZK_SERVER_HEAP=128
 
-wget https://git.io/tinykafka_zookeeper -O zookeeper_server_start.sh
-sudo sh zookeeper_server_start.sh config/zookeeper.properties
+sudo wget https://git.io/tinykafka_zookeeper -O zookeeper-server-start.sh
+sudo sh zookeeper-server-start.sh config/zookeeper.properties
